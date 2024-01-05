@@ -1,0 +1,12 @@
+.baseContent
+{
+  background-color: #323232;
+  border-radius: 15px;
+}
+.infoContent
+{
+  text-align: center;
+  font-family: Monospace;
+  color: white;
+  text-shadow: 0px 1px 1px #111;
+}
