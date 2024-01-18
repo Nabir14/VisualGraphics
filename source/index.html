@@ -39,22 +39,25 @@
       <button onclick="main()">Render</button>
       <br>
       <div>
-        <p>sceneColor: </p>
+        <input type="text" placeholder="Input Object Type" id="objType">
+      </div>
+      <br>
+      <div id="colors">
+        <p>Scene BG Color: </p>
         <div>
           <p>R: <input type="number" id="sceneColorR" value="255"><br>G: <input type="number" id="sceneColorG" value="255"><br>B: <input type="number" id="sceneColorB" value="255"><br>A: <input type="number" id="sceneColorA" value="255"></p>
         </div>
-        <p>objColor: </p>
+        <p>Object Color: </p>
         <div
           <p>R: <input type="number" id="objColorR" value="00"><br>G: <input type="number" id="objColorG" value="00"><br>B: <input type="number" id="objColorB" value="00"><br>A: <input type="number" id="objColorA" value="255"></p>
         </div>
-        <p>objType: <input type="text" id="objType" value="Triangle"></p>
       </div>
       <br>
       <div>
-        <p>xSize: <input type="range" id="xSizeRange" min="-16" max="16" step="0.01" value="1" onchange="main()"> <span id="xSizeValue"></span></p>
-        <p>ySize: <input type="range" id="ySizeRange" min="-16" max="16" step="0.01" value="1" onchange="main()"> <span id="ySizeValue"></span></p>
-        <p>xPos: <input type="range" id="xPosRange" min="-319" max="319" step="0.01" value="1" onchange="main()"> <span id="xPosValue"></span></p>
-        <p>yPos: <input type="range" id="yPosRange" min="-319" max="319" step="0.01" value="1" onchange="main()"> <span id="yPosValue"></span></p>
+        <p>X Size: <input type="range" id="xSizeRange" min="-16" max="16" step="0.01" value="1" onchange="main()"> <span id="xSizeValue"></span></p>
+        <p>Y Size: <input type="range" id="ySizeRange" min="-16" max="16" step="0.01" value="1" onchange="main()"> <span id="ySizeValue"></span></p>
+        <p>X Pos: <input type="range" id="xPosRange" min="-319" max="319" step="0.01" value="1" onchange="main()"> <span id="xPosValue"></span></p>
+        <p>Y Pos: <input type="range" id="yPosRange" min="-319" max="319" step="0.01" value="1" onchange="main()"> <span id="yPosValue"></span></p>
         <p>Rotation: <input type="range" id="rotAng" min="-360" max="360" step="0.01" value="0" onchange="main()"> <span id="rotAngValue"></span></p>
     </div>
     <script id="main" src="script.js"></script>

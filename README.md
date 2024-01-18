@@ -5,8 +5,7 @@ VisualGL is an open-source game engine.
 
 
 VisualGL is originally written by Nabir14.
-VisualGL is also contributed by:
-N/A
+VisualGL is also contributed by: GDT-Studio
 
 Features:
 • 2D renderer (✓)
