@@ -6,7 +6,7 @@ VisualGraphics is an open-source graphics rendering framework and game engine.
 
 VisualGraphics is originally written by Nabir14. 
 
-**The VisualGraphics game engine is also contributed by:**
+**VisualGraphics Game Engine is contributed by:**
 - GDT-Studio
 
 **Features:**
